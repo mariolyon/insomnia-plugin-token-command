@@ -1,13 +1,20 @@
 {
   "name": "insomnia-plugin-token-command",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Mario Lyon <mario@digileo.com>",
   "description": "Insomnia plugin to get token from a command",
   "license": "MIT",
   "main": "main.js",
   "insomnia": {
     "name": "token-command",
-    "description": "Get token from a command"
+    "description": "Get token from a command",
+
+    "publisher": {
+      "name": "Mario Lyon",
+      "icon": "https://avatars.githubusercontent.com/u/9445676?v=4"
+    },
+
+    "unlisted": false
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
