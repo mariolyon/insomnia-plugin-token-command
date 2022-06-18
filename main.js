@@ -37,8 +37,6 @@ module.exports.templateTags = [{
     }
   ],
   async run(context, command, cacheValue, refreshOnExpire) {
-    await context.app.alert('hello', 'some message')
-
     if (!command.trim()) {
       return ''
     }

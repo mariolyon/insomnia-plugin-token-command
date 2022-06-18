@@ -1,6 +1,6 @@
 {
   "name": "insomnia-plugin-token-command",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "author": "Mario Lyon <mario@digileo.com>",
   "description": "Insomnia plugin to get token from a command",
   "license": "MIT",
